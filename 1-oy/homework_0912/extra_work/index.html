@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 20px;
+            background-color: blue
+        }
+        form {
+            padding: 20px;
+            width: 60%;
+            margin: 0 auto  ;
+            background-color: aliceblue;
+            border-radius: 15px;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border-color: #9d9c9c;
+        }
+        label{
+            font-size: 25px;
+            font-weight: 600;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Registration</h1>
+        <p>Personal Details</p>
+
+        <table width="800">
+            <!-- 1-qator -->
+            <tr>
+                <td>
+                    <label for="full_name">Full name</label>
+                </td>
+
+                <td>
+                    <label for="date_birth">Date of Birth</label>
+                </td>
+
+                <td>
+                    <label for="email">Email</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" placeholder="Enter your name" name="full_name", id="full_name">
+                </td>
+
+                <td>
+                    <input type="text" placeholder="Enter birth date" name="date_birth", id="date_birth">
+                </td>
+
+                <td>
+                    <input type="email" placeholder="Enter your email" name="email", id="email">
+                </td>
+            </tr>
+
+
+
+            <!-- 2-qator -->
+            <tr>
+                <td>
+                    <label for="number">Mobile number</label>
+                </td>
+
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+
+                <td>
+                    <label for="occupation">Occupation</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="number" placeholder="Enter mobile number" name="number", id="number">
+                </td>
+
+                <td>
+                    <input type="text" placeholder="Enter your gender" name="gender", id="gender">
+                </td>
+
+                <td>
+                    <input type="text" placeholder="Enter occupation" name="occupation", id="occupation">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Identity Details</td>
+            </tr>
+
+             <!-- 3-qator -->
+            <tr>
+                <td>
+                    <label for="id_type">ID Type</label>
+                </td>
+
+                <td>
+                    <label for="id_number">ID Number</label>
+                </td>
+
+                <td>
+                    <label for="issue">Issue</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" placeholder="Enter ID type" name="id_type", id="id_type">
+                </td>
+
+                <td>
+                    <input type="text" placeholder="Enter ID number" name="id_number", id="id_number">
+                </td>
+
+                <td>
+                    <input type="text" placeholder="Enter issue department" name="issue", id="issue">
+                </td>
+            </tr>
+
+
+            <!-- 4-qator -->
+            <tr>
+                <td>
+                    <label for="issue_date">Issue Date</label>
+                </td>
+
+                <td>
+                    <label for="issue_state">Issue Satae</label>
+                </td>
+
+                <td>
+                    <label for="expiry">Expiry Date</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" placeholder="Enter ID issue date" name="issue_date", id="issue_date">
+                </td>
+
+                <td>
+                    <input type="text" placeholder="Enter ID issue Satae" name="issue_state", id="issue_state">
+                </td>
+
+                <td>
+                    <input type="text" placeholder="Enter ID expiry date" name="expiry", id="expiry">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <input type="submit" value="Next ->">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

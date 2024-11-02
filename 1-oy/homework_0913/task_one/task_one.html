@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_one.css">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" method="get" target="_blank">
+        <h1 class="registration_title"><span>Re</span>gistration</h1>
+        <div class="registration_wrap_box">
+            <div class="registration_box">
+                <label for="full_name" class="lable_text"><p>Full Name</p></label>
+                <input type="text" required name="full_name" id="full_name" placeholder="Enter your name">
+            </div>
+
+            <div class="registration_box">
+                <label for="user_name" class="lable_text"><p>Username</p></label>
+                <input type="text" required name="user_name" id="user_name" placeholder="Enter your user">
+            </div>
+
+            <div class="registration_box">
+                <label for="email" class="lable_text"><p>Email</p></label>
+                <input type="email" required name="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="registration_box">
+                <label for="number" class="lable_text"><p>Phone Number</p></label>
+                <input type="number" required name="number" id="number" placeholder="Enter your number">
+            </div>
+
+            <div class="registration_box">
+                <label for="password" class="lable_text"><p>Password</p></label>
+                <input type="password" required name="password" id="password" placeholder="Enter your password">
+            </div>
+
+            <div class="registration_box">
+                <label for="confirm_password" class="lable_text"><p>Confirm Password</p></label>
+                <input type="password" required name="confirm_password" id="confirm_password" placeholder="Enter your password">
+            </div>
+        </div>
+
+        <h2 class="gender_text">Gender</h2>
+        <div class="gender_box_wrap">
+            <div class="gender_box">
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+            </div>
+
+            <div class="gender_box">
+                <input type="radio" name="gender" value="famale" id="famale">
+                <label for="famale">Famale</label>
+            </div>
+        </div>
+        <input type="submit" class="registration_btn" value="Register">
+    </form>
+</body>
+</html>

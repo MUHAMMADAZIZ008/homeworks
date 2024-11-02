@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FORM</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="form-title" data-text="FORM">FORM</h1>
+        <form>
+            <div class="input-lable__wrap">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username..." name="username">
+            </div>
+
+            <div class="input-lable__wrap">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password..." name="password">
+                <p class="info-lable">Your password is between 4 and 12 characters</p>
+            </div>
+
+            <div class="input-lable__wrap">
+                <label for="text__lable">Input Text Label</label>
+                <input type="text" id="text__lable" placeholder="Enter text..." name="text-lable">
+                <p class="error-info">error</p>
+            </div>
+
+            <div class="check__box">
+                <input type="checkbox" id="remember-chack__box" name="checkbox-valu" value="remember me">
+                <label for="remember-chack__box">Remember me</label>
+            </div>
+
+            <div class="togle-box__wrap">
+                <input type="checkbox" name="togle" id="togle-btn">
+                <label for="togle-btn" class="togle-btn"></label>
+                <label for="togle-btn" class="togle-text">Off</label>
+            </div>
+
+            <div class="radio-btn__warp">
+                <div class="radio-btn__box">
+                    <input type="radio" id="radio-btn1"  value="radio selection 1" name="radio-btn">
+                    <label for="radio-btn1">Radio selection 1</label>
+                </div>
+
+                <div class="radio-btn__box">
+                    <input type="radio" id="radio-btn2"  value="radio selection 2" name="radio-btn">
+                    <label for="radio-btn2">Radio selection 2</label>
+                </div>
+
+                <div class="radio-btn__box">
+                    <input type="radio" id="radio-btn3"  value="radio selection 3" name="radio-btn">
+                    <label for="radio-btn3">Radio selection 3</label>
+                </div>
+                
+            </div>
+
+            <label for="dropdown-title__select" class="dropdown-title">Dropdown Title</label>
+            <select name="dropdown-title" id="dropdown-title__select">
+                <option value="dropdown option">Dropdown option</option>
+                <option value="dropdown option1">Dropdown option 1</option>
+                <option value="dropdown option2">Dropdown option 2</option>
+            </select>
+
+            <div class="form-btn__wrap">
+                <input type="reset" value="Reset form" id="reset-btn">
+                <input type="submit" value="Submit" id="submit-btn">
+            </div>
+        </form>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

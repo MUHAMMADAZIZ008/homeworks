@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 255, 0.667);
+        }
+        form {
+            width: 500px;
+            margin: 200px auto;
+            background-color: white;
+        }
+        form thead th{
+            font-weight: 900;
+            font-size: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" method="get" target="_blank">
+        <table width="500" border="2">
+            <thead>
+                <tr>
+                    <th colspan="2">Fill the form below</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td>
+                        <input id="name" name="name" type="text" required placeholder="Enter your name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td>
+                        <input id="password" name="password" type="password" required placeholder="Enter your password">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="feedback">Feedback</label></td>
+                    <td>
+                        <textarea name="feedback" id="feedback" rows="4" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male" required>
+                        <label for="male">Male</label>
+
+                        <input type="radio" name="gender" id="female" value="female" required>
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="subject">Subject</label></td>
+                    <td>
+                        <input type="checkbox" id="web" name="subject_web" value="web">
+                        <label for="web">Web</label>
+
+                        <input type="checkbox" id="math" name="subject_math" value="math">
+                        <label for="math">Math</label>
+
+                        <input type="checkbox" id="graphics" name="subject_graphics" value="graphics">
+                        <label for="graphics">Graphics</label>
+
+                        <input type="checkbox" id="englsih" name="subject_englsih" value="englsih">
+                        <label for="englsih">Englsih</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Reset All">
+                        <input type="submit" value="Submit Above Details">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

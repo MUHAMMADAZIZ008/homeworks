@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form action="/login" method="get" target="_top" class="form1">
+            <h1 class="login__title">Login</h1>
+            <div class="form_box">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" autocomplete="off">
+            </div>
+            <div class="form_box">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="off">
+            </div>
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+
+
+        <form action="/register" method="get" target="_top" class="form2">
+
+            <h1 class="login__title">Registration</h1>
+            <div class="form_box">
+                <label for="fullname">fullname</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your fullname" autocomplete="off">
+            </div>
+
+            <div class="form_box">
+                <label for="usernameRe">Username</label>
+                <input type="text" id="usernameRe" name="username" placeholder="Enter your username" autocomplete="off">
+            </div>
+
+            <div class="form_box">
+                <label for="password">Password</label>
+                <input type="password" id="passwordRe" name="password" placeholder="Enter your password" autocomplete="off">
+            </div>
+
+            <button type="submit" class="register-btn">Registration</button>
+        </form>
+    </div>
+
+    <script>
+        const form  = document.querySelector(".form1");
+        const submitBtn = document.querySelector(".submit-btn");
+        const userName = document.querySelector("#username");
+        const password = document.querySelector("#password");
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            let userInfo = {
+                "username": userName.value,
+                "password": password.value
+            };
+
+            async function checkJson() {
+                try {
+                    let response = await fetch("http://localhost:5500/login", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify(userInfo)
+                    });
+
+                    if (response.ok) {
+                        let data = await response.json();
+                        console.log("Javob:", data);
+                    } else {
+                        console.error("Xatolik:", response.statusText);
+                    }
+                } catch (error) {
+                    console.error("Xatolik yuz berdi:", error);
+                }
+            }
+            checkJson()
+        });
+
+
+        // -----------------------------------------------------------------------------------
+        const form2 = document.querySelector(".form2")
+        const fullname = document.querySelector("#fullname")
+        const userNameRe = document.querySelector("#usernameRe")
+        const passwordRe = document.querySelector("#passwordRe")
+
+        form2.addEventListener("submit", (e) =>{
+            e.preventDefault()
+            let userInfoRe = {
+                "fullname" : fullname.value,
+                "username" : userNameRe.value,
+                "password" : passwordRe.value
+            }
+            async function postInfo() {
+                try{
+                    let res = await fetch("http://localhost:5500/register", {
+                        method : "POST",
+                        headers : {
+                            "Content-Type" : "application/json"
+                        },
+                        body : JSON.stringify(userInfoRe)
+                    })
+                    if(res.ok){
+                        let data = await res.json()
+                        console.log(data);
+                    }else{
+                        console.error("Xatolik:", response.statusText);
+                    }
+                }
+                catch(e){
+                    console.log("Xatolik yuz berdi", e);
+                }
+                
+            }
+            postInfo()
+
+        })
+
+    </script>
+
+</body>
+</html>

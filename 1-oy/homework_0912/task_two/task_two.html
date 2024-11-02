@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: #caa578;
+        }
+        label{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Land Of Boxes Order Form</h1>
+    <form action="https://www.w3schools.com/action_page.php" method="get" target="_blank">
+        <label for="name">Name: </label>
+        <input type="text" id="name" required placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" required placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="adderss">Address: </label>
+        <textarea name="address" id="adderss" rows="4"></textarea>
+        <br>
+        <br>
+        <label for="postcode">Postcode: </label>
+        <input type="number" name="postcode" id="postcode">
+        <br>
+        <br>
+        <br>
+
+        <table border="2" width="800">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Part Number</th>
+                    <th>Quntity</th>
+                    <th>Unit Price</th>
+                    <th>Subtotle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>EconoBox</td>
+                    <td>LB100</td>
+                    <td><input type="number"></td>
+                    <td>R5</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>StandardBox</td>
+                    <td>I.B200</td>
+                    <td><input type="number"></td>
+                    <td>R10</td>
+                    <td><input type="number"></td>
+                </tr>
+
+                <tr>
+                    <td>PremiumBoxTD></td>
+                    <td>LB300</td>
+                    <td><input type="number"></td>
+                    <td>R15</td>
+                    <td><input type="number"></td>
+                </tr>
+
+                <tr>
+                    <td>DeluxeTD></td>
+                    <td>LB400</td>
+                    <td><input type="number"></td>
+                    <td>R20</td>
+                    <td><input type="number"></td>
+                </tr>
+
+                <tr>
+                    <td>Super Deluxe BoxTd></td>
+                    <td>LB500</td>
+                    <td><input type="number"></td>
+                    <td>R30</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">Total:</td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <h2>Credit Card Details</h2>
+        <p>Card Type:</p>
+        
+        <table width="700">
+            <tr>
+                <td>
+                    <input id="mastercard" type="radio" value="mastercard" name="card">
+                    <label for="mastercard">Mastercard</label>
+                </td>
+                <td>
+                    <label for="card_number">Card Number: </label>
+                    <input type="number" name="card_number" id="card_number">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input id="visa" type="radio" value="visa" name="card">
+                    <label for="visa">Visa</label>
+                </td>
+                <td>
+                    <label for="expiry_date">Expiry date: </label>
+                    <input type="text" name="expiry_date" id="expiry_date">
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">
+                    <input id="express" type="radio" value="express" name="card">
+                    <label for="express">Ameican Express</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input id="diners" type="radio" value="diners" name="card">
+                    <label for="diners">Diners Club</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+
+        <label for="delivery_address">Delivery Address: </label>
+        <textarea name="delivery_address" id="delivery_address" rows="8" cols="25"></textarea>
+
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Send order">
+        <input type="reset" value="Clear form">
+    </form>
+</body>
+</html>

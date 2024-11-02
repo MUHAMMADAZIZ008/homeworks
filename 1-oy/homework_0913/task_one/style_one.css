@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #588dc9, #c170d1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+.registration_title {
+    font-weight: 500;
+}
+.registration_title span {
+    background: linear-gradient(to right, #588dc9, #c170d1);
+    padding-bottom: 5px;
+    color: aliceblue;
+    /* border-bottom: 3px solid #000; */
+}
+.registration_wrap_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.registration_box {
+    width: 45%;
+}
+.lable_text p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.registration_box input {
+    padding: 12px 0 12px 10px;
+    width: 100%;
+    border: 2px solid #9f9e9e;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #9f9e9e;
+}
+.gender_text {
+    margin: 20px 0;
+}
+.gender_box_wrap {
+    margin-bottom: 50px;
+    display:  flex;
+    align-items: center;
+    justify-content: start;
+}
+.gender_box{
+    margin-right: 70px;
+}
+.gender_box label {
+    font-size: 18px;
+    color: #323232;
+    font-weight: 600;
+}
+.registration_btn {
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #588dc9, #c170d1);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
