@@ -1,5 +1,7 @@
 import { Users } from "../models/index.js"
 
+import { createTokens } from "../helpers/jwt.js"
+
 export const createUserCon = async(req, res, next) =>{
     try{
         const body = req.body
@@ -26,9 +28,13 @@ export const checkUserCon = async(req, res, next) =>{
                 message: "Email or password is wrong"
             })
         }
+        const token = createTokens({
+            email: req.body.email
+        })
         return res.status(200).send({
             message: "Welcome",
-            date: findUser
+            date: findUser,
+            token: token
         })
     }
     catch(e){
