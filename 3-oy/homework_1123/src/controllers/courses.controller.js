@@ -1,5 +1,5 @@
 import { createCoursesService, deleteCoursesSersice, getCoursesSersice, updatCourseSersice } from '../services/index.service.js'
-import { logger } from '../utils/index.js'
+import { logger, AppError } from '../utils/index.js'
 
 export const createCoursesController = async (req, res, next) =>{
     try {

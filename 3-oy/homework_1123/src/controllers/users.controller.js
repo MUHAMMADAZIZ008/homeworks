@@ -1,5 +1,5 @@
 import { createUserService, deleteUserSersice, getUserSersice, updateUserSersice } from '../services/index.service.js'
-import { logger } from '../utils/index.js'
+import { AppError, logger } from '../utils/index.js'
 
 export const createUserController = async (req, res, next) =>{
     try {

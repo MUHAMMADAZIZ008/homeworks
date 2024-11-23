@@ -364,3 +364,110 @@
 [2024-11-23 20:13:54] ERROR: course not found
 [2024-11-23 20:13:54] ERROR: course not found
 [2024-11-23 20:13:54] ERROR: Error: course not found
+[2024-11-23 23:50:21] INFO: app is running on port: 3000
+[2024-11-23 23:52:25] ERROR: user id not found
+[2024-11-23 23:52:25] ERROR: user id not found
+[2024-11-23 23:52:25] ERROR: Error: user id not found
+[2024-11-23 23:53:04] INFO: app is running on port: 3000
+[2024-11-23 23:53:55] ERROR: user id not found
+[2024-11-23 23:53:55] ERROR: user id not found
+[2024-11-23 23:53:55] ERROR: Error: user id not found
+[2024-11-23 23:54:11] ERROR: AppError is not defined
+[2024-11-23 23:54:11] ERROR: Error: AppError is not defined
+[2024-11-23 23:54:59] INFO: app is running on port: 3000
+[2024-11-23 23:55:01] ERROR: AppError is not defined
+[2024-11-23 23:55:01] ERROR: Error: AppError is not defined
+[2024-11-23 23:55:15] INFO: app is running on port: 3000
+[2024-11-23 23:55:22] INFO: app is running on port: 3000
+[2024-11-23 23:55:24] ERROR: student not found
+[2024-11-23 23:55:24] ERROR: Error: student not found
+[2024-11-23 23:55:33] INFO: app is running on port: 3000
+[2024-11-23 23:55:45] INFO: app is running on port: 3000
+[2024-11-23 23:55:49] INFO: app is running on port: 3000
+[2024-11-23 23:56:52] ERROR: Cannot read properties of undefined (reading 'id')
+[2024-11-23 23:56:52] ERROR: Error: Cannot read properties of undefined (reading 'id')
+[2024-11-23 23:57:13] ERROR: Cannot read properties of undefined (reading 'id')
+[2024-11-23 23:57:13] ERROR: Error: Cannot read properties of undefined (reading 'id')
+[2024-11-23 23:59:38] INFO: app is running on port: 3000
+[2024-11-23 23:59:41] ERROR: Cannot read properties of undefined (reading 'id')
+[2024-11-23 23:59:41] ERROR: Error: Cannot read properties of undefined (reading 'id')
+[2024-11-24 00:01:22] ERROR: deleteStudentSersice is not defined
+[2024-11-24 00:01:22] ERROR: Error: deleteStudentSersice is not defined
+[2024-11-24 00:01:32] INFO: app is running on port: 3000
+[2024-11-24 00:01:38] INFO: app is running on port: 3000
+[2024-11-24 00:01:40] ERROR: getCoursesSersice is not defined
+[2024-11-24 00:01:40] ERROR: getCoursesSersice is not defined
+[2024-11-24 00:01:40] ERROR: Error: getCoursesSersice is not defined
+[2024-11-24 00:01:51] ERROR: getCoursesSersice is not defined
+[2024-11-24 00:01:51] ERROR: getCoursesSersice is not defined
+[2024-11-24 00:01:51] ERROR: Error: getCoursesSersice is not defined
+[2024-11-24 00:02:15] INFO: app is running on port: 3000
+[2024-11-24 00:04:09] INFO: app is running on port: 3000
+[2024-11-24 00:04:19] INFO: app is running on port: 3000
+[2024-11-24 00:04:29] INFO: app is running on port: 3000
+[2024-11-24 00:04:33] INFO: app is running on port: 3000
+[2024-11-24 00:04:37] INFO: app is running on port: 3000
+[2024-11-24 00:04:39] INFO: app is running on port: 3000
+[2024-11-24 00:04:45] INFO: app is running on port: 3000
+[2024-11-24 00:05:01] INFO: app is running on port: 3000
+[2024-11-24 00:05:02] INFO: app is running on port: 3000
+[2024-11-24 00:05:06] INFO: app is running on port: 3000
+[2024-11-24 00:09:31] INFO: app is running on port: 3000
+[2024-11-24 00:10:00] INFO: app is running on port: 3000
+[2024-11-24 00:10:02] INFO: app is running on port: 3000
+[2024-11-24 00:10:05] INFO: app is running on port: 3000
+[2024-11-24 00:45:38] INFO: app is running on port: 3000
+[2024-11-24 00:45:52] INFO: app is running on port: 3000
+[2024-11-24 00:45:59] INFO: app is running on port: 3000
+[2024-11-24 00:47:19] ERROR: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [id] query: select * from "users" where "id" = ?
+[2024-11-24 00:47:19] ERROR: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [id] query: select * from "users" where "id" = ?
+[2024-11-24 00:47:19] ERROR: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [id] query: select * from "users" where "id" = ?
+[2024-11-24 00:47:57] ERROR: getTeacherSersice is not defined
+[2024-11-24 00:47:57] ERROR: Error: getTeacherSersice is not defined
+[2024-11-24 00:48:09] INFO: app is running on port: 3000
+[2024-11-24 00:48:51] ERROR: updatTeacherSersice is not defined
+[2024-11-24 00:48:51] ERROR: Error: updatTeacherSersice is not defined
+[2024-11-24 00:49:04] INFO: app is running on port: 3000
+[2024-11-24 00:49:07] ERROR: Cannot read properties of undefined (reading 'id')
+[2024-11-24 00:49:07] ERROR: Error: Cannot read properties of undefined (reading 'id')
+[2024-11-24 00:51:00] INFO: app is running on port: 3000
+[2024-11-24 00:51:15] INFO: app is running on port: 3000
+[2024-11-24 00:51:30] INFO: app is running on port: 3000
+[2024-11-24 00:51:39] INFO: app is running on port: 3000
+[2024-11-24 00:51:51] INFO: app is running on port: 3000
+[2024-11-24 00:51:55] INFO: app is running on port: 3000
+[2024-11-24 00:51:56] INFO: app is running on port: 3000
+[2024-11-24 00:52:00] INFO: app is running on port: 3000
+[2024-11-24 00:52:03] INFO: app is running on port: 3000
+[2024-11-24 00:52:07] INFO: app is running on port: 3000
+[2024-11-24 00:52:15] INFO: app is running on port: 3000
+[2024-11-24 00:52:19] INFO: app is running on port: 3000
+[2024-11-24 00:52:25] INFO: app is running on port: 3000
+[2024-11-24 00:52:28] INFO: app is running on port: 3000
+[2024-11-24 00:52:36] INFO: app is running on port: 3000
+[2024-11-24 00:52:43] INFO: app is running on port: 3000
+[2024-11-24 00:52:46] INFO: app is running on port: 3000
+[2024-11-24 00:52:49] INFO: app is running on port: 3000
+[2024-11-24 00:52:53] INFO: app is running on port: 3000
+[2024-11-24 00:53:08] INFO: app is running on port: 3000
+[2024-11-24 00:53:13] INFO: app is running on port: 3000
+[2024-11-24 00:53:17] INFO: app is running on port: 3000
+[2024-11-24 00:53:30] INFO: app is running on port: 3000
+[2024-11-24 00:53:34] INFO: app is running on port: 3000
+[2024-11-24 00:53:41] INFO: app is running on port: 3000
+[2024-11-24 00:53:44] INFO: app is running on port: 3000
+[2024-11-24 00:53:46] INFO: app is running on port: 3000
+[2024-11-24 00:53:58] INFO: app is running on port: 3000
+[2024-11-24 00:54:03] INFO: app is running on port: 3000
+[2024-11-24 00:54:37] INFO: app is running on port: 3000
+[2024-11-24 00:54:39] INFO: app is running on port: 3000
+[2024-11-24 00:54:40] INFO: app is running on port: 3000
+[2024-11-24 00:54:50] INFO: app is running on port: 3000
+[2024-11-24 00:54:53] INFO: app is running on port: 3000
+[2024-11-24 00:54:55] INFO: app is running on port: 3000
+[2024-11-24 00:54:59] INFO: app is running on port: 3000
+[2024-11-24 00:57:41] INFO: app is running on port: 3000
+[2024-11-24 00:57:45] INFO: app is running on port: 3000
+[2024-11-24 00:57:49] INFO: app is running on port: 3000
+[2024-11-24 01:13:23] INFO: app is running on port: 3000
+[2024-11-24 01:15:33] ERROR: Error: Unexpected number in JSON at position 60
